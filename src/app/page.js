@@ -1,8 +1,9 @@
-
-import Ej3 from "./ejercicios/ej3";
+import { DadoConBoton } from "./ejercicios/ej6b";
 
 export default function Home() {
   return (
-    <Ej3 />
+    <div>
+      <DadoConBoton />
+    </div>
   );
 }
