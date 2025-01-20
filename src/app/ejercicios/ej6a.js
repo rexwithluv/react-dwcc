@@ -1,9 +1,8 @@
 "use client"
 
 import React from 'react';
-import numAleatorio from './helpers/numRandom';
 
-export default function Dado() {
+export default function Dado({ valor }) {
     const DADOS = [
         `
          _____
@@ -43,7 +42,7 @@ export default function Dado() {
         `
     ];
 
-    const valor = numAleatorio(0, DADOS.length - 1);
+    // const valor = numAleatorio(0, DADOS.length - 1);
 
     return (
         <pre>

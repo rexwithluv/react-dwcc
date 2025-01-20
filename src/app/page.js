@@ -1,9 +1,9 @@
-import { DadoConBoton } from "./ejercicios/ej6b";
+import Ej8 from "./ejercicios/Ej8";
 
 export default function Home() {
   return (
     <div>
-      <DadoConBoton />
+      <Ej8 />
     </div>
   );
 }
