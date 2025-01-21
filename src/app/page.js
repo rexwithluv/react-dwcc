@@ -1,9 +1,19 @@
-import Ej8 from "./ejercicios/Ej8";
+"use client";
+
+
+import { useState } from "react";
+import Ej9 from "./ejercicios/Ej9";
 
 export default function Home() {
+  const [activo, setActivo] = useState(true);
+
   return (
     <div>
-      <Ej8 />
+      <button type="button" onClick={() => setActivo(!activo)}>
+        {activo ? "Desactivar" : "Activar"} componente
+      </button>
+
+      {activo && <Ej9 />}
     </div>
   );
 }
