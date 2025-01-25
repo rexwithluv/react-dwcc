@@ -1,6 +1,6 @@
 "use client"
 
-import numAleatorio from "./helpers/numRandom";
+import numAleatorio from "../helpers/numRandom";
 import React, { useState } from 'react';
 
 export default function Ej4A() {

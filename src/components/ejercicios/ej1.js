@@ -1,4 +1,4 @@
-import numRandom from "./helpers/numRandom"
+import numRandom from "../helpers/numRandom"
 class Persona {
     constructor(nombre, edad, telefono) {
         this.nombre = nombre;
