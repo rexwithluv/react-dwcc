@@ -1,6 +1,6 @@
 "use client"
 
-import numAleatorio from "../helpers/numRandom"
+import numAleatorio from "../../helpers/numRandom"
 import Dado from "./ej6a";
 import { useState } from "react";
 

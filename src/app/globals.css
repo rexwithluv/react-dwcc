@@ -7,7 +7,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #121212; 
+  background-color: #121212;
   color: white;
   height: 100vh;
   display: flex;
@@ -19,4 +19,8 @@ body {
 html,
 body {
   height: 100%;
+}
+
+textarea:disabled{
+  background-color: rgb(207, 207, 207);
 }

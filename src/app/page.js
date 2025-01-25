@@ -1,10 +1,10 @@
-import Ej13 from "../components/ejercicios/Ej13";
+import Ej14 from "@/components/ejercicios/Ej14";
 
 export default function Home() {
 
   return (
     <div>
-      <Ej13 />
+      <Ej14 />
     </div>
   );
 }
